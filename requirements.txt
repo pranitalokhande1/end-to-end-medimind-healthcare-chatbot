@@ -1,0 +1,33 @@
+# Core LangChain & LLM
+langchain
+langchain-community
+langchain-core
+openai
+ollama  # Optional, only if you're using LLaMA 3 via Ollama
+
+# Embeddings & Vector Store
+faiss-cpu
+sentence-transformers  # For HuggingFace embeddings
+
+# Document loading and processing
+python-dotenv
+tqdm
+
+# Text splitting and PDF/image extraction (optional if using scanned books)
+unstructured
+pymupdf  # For PDF loading
+pytesseract  # For OCR if using scanned images
+Pillow  # Required for image processing
+
+# FastAPI or Streamlit (optional for UI)
+streamlit
+
+# File handling & parsing
+pandas
+
+# For agent functionality (if using tools, e.g., retrievers)
+langchainhub  # Optional: for tool loading
+Tiktoken 
+chromadb
+-U langchain-huggingface
+openai
