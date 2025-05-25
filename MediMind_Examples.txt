@@ -1,0 +1,81 @@
+# MediMind: Healthcare AI Use Case Examples
+
+This document outlines three real-world examples of MediMind, an AI-driven diagnostic support system for healthcare, focusing on its Symptom Analysis and Clinical Decision Support functionalities.
+
+## Example 1: Emergency Department – Suspected Cardiac Event
+
+**Context**: A 52-year-old male presents with chest pain in the emergency department.
+
+**Input**:
+- Symptoms: Chest pain for 2 hours, heavy, radiating to left arm; nausea, sweating, shortness of breath.
+- Medical History: Hypertension, smokes 1 pack/day for 20 years, no allergies.
+- Test Results: ECG shows ST-segment elevation; troponin I elevated at 2.5 ng/mL.
+- Physician Query: “What’s the likely diagnosis, and what should we do next?”
+
+**Output (Symptom Analysis)**:
+- Differential Diagnoses:
+  - Acute myocardial infarction (STEMI): 92% – ST-elevation and elevated troponin.
+  - Unstable angina: 5% – Less likely due to ECG.
+  - Aortic dissection: 2% – Consider if pain is tearing.
+  - Pulmonary embolism: 1% – Low probability.
+- Alert: Immediate cardiology consult recommended.
+
+**Output (Clinical Decision Support)**:
+- Immediate Actions:
+  - Aspirin 325 mg (chewable) stat.
+  - Heparin bolus and infusion.
+  - Prepare for percutaneous coronary intervention (PCI) within 90 minutes.
+- Follow-Ups: Repeat ECG in 30 minutes; monitor troponin every 6 hours.
+- Documentation: STEMI diagnosed; aspirin and heparin initiated; PCI planned.
+
+## Example 2: Primary Care – New-Onset Diabetes
+
+**Context**: A 45-year-old female reports fatigue and thirst during a routine checkup.
+
+**Input**:
+- Symptoms: Fatigue for 3 months, frequent urination, increased thirst, 8-pound weight loss.
+- Medical History: Obesity (BMI 32), family history of Type 2 diabetes, no medications.
+- Test Results: Fasting glucose 145 mg/dL; HbA1c 7.8%.
+- Physician Query: “What’s causing her symptoms, and how should we treat it?”
+
+**Output (Symptom Analysis)**:
+- Differential Diagnoses:
+  - Type 2 diabetes mellitus: 90% – HbA1c 7.8% and classic symptoms.
+  - Type 1 diabetes: 5% – Less likely given age.
+  - Hyperthyroidism: 3% – Consider thyroid tests.
+  - Malignancy: 2% – Monitor weight loss.
+- Next Steps: Confirm diabetes diagnosis; initiate management.
+
+**Output (Clinical Decision Support)**:
+- Treatment Plan:
+  - Metformin 500 mg once daily, titrate to twice daily in 2 weeks.
+  - Refer to dietician for low-carb diet.
+  - Recommend 150 minutes/week of exercise.
+- Follow-Ups: Repeat HbA1c in 3 months; order lipid panel and kidney tests.
+- Patient Summary: Start metformin and follow a healthy diet.
+
+## Example 3: Rural Clinic – Pediatric Fever
+
+**Context**: A 6-year-old boy presents with fever and rash in a rural clinic.
+
+**Input**:
+- Symptoms: Fever for 4 days (102°F), non-itchy rash on trunk, sore throat, headache.
+- Medical History: No chronic conditions, vaccinations up to date (including MMR).
+- Test Results: Negative rapid strep test; white blood cell count 12,000/µL.
+- Physician Query: “What could this be? Should I refer to a hospital?”
+
+**Output (Symptom Analysis)**:
+- Differential Diagnoses:
+  - Viral exanthem (e.g., roseola): 60% – Common in children.
+  - Scarlet fever: 20% – Negative strep test reduces likelihood.
+  - Kawasaki disease: 15% – Consider if fever persists.
+  - Measles: 5% – Unlikely due to vaccination.
+- Alert: Monitor for Kawasaki disease signs (e.g., conjunctivitis).
+
+**Output (Clinical Decision Support)**:
+- Treatment Plan:
+  - Ibuprofen 10 mg/kg every 6 hours for fever.
+  - Ensure adequate hydration.
+  - Monitor symptoms for 2 more days.
+- Follow-Ups: Reassess if fever persists beyond 5 days; consider pediatrician referral.
+- Documentation: Fever and rash, likely viral; monitor for Kawasaki.
